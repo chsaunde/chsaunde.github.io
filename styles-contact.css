@@ -30,7 +30,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: contents;
 }
 body {
 	line-height: 1;
@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/tracksandocean.jpg)
       center center fixed no-repeat;
     background-size: cover;
 	
@@ -68,53 +68,57 @@ html, body {
 }
 
 .center {
-    width: 900px;
+    width: 700px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(0, 150, 178, .20); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px solid black;
+	border: ;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px solid black;
+	border: 3px;
 	text-align: center;
 }
 
 h1 {
 	
-    font-family: delicato, sans-serif;
+    
+    font-family: ff-tisa-sans-web-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: blanchedalmond;
 }
 
 h2 { 
-    font-family: delicato, sans-serif;
+    
+    font-family: ff-tisa-sans-web-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: blanchedalmond;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
 p {
-	font-family: span, serif;
+	
+    font-family: ff-tisa-sans-web-pro, sans-serif;
     font-weight: 400;
     font-style: normal;		;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: blanchedalmond;
 }
     
 nav{
-    font-family: span, serif;
+    
+    font-family: ff-tisa-sans-web-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.2em;
@@ -137,11 +141,11 @@ nav a{
 }
 
 a{
-    color: #444;
+    color: blanchedalmond;
     text-decoration: none;
     font-weight: bold;
 }
 a:hover{
     color:black;
-    background:blue;
+    background:transparent;
 }
