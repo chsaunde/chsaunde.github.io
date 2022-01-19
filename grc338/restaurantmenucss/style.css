@@ -1,0 +1,30 @@
+/* CSS DOCUMENT*/
+body{
+    background-color: beige;
+
+}
+h1{
+    color:rgb(3, 32, 10);
+    font-size: 3em;
+    background-color: wheat;
+    padding: 1em 2em 1.5em 0.5em;
+    font-family: sans-serif;
+}
+h2{
+    color:rgb(19, 70, 31);
+    font-size: 3em;
+    padding: 1em 2em 1.5em 0.5em;
+    font-family: sans-serif;  
+}
+h3{
+    color:rgb(46, 141, 68);
+    font-size: 3em;
+    padding: 1em 2em 1.5em 0.5em;
+    font-family: sans-serif;
+}
+h4{
+    color:rgb(120, 207, 140);
+    font-size: 3em;
+    padding: 1em 2em 1.5em 0.5em;
+    font-family: sans-serif;
+}
