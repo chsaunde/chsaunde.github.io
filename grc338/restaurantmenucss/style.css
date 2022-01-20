@@ -4,34 +4,33 @@ body{
 
 }
 h1{
-    margin: 1em 3em 1.5em 3em;
+    margin: 1em;
     color:rgb(3, 32, 10);
     font-size: 3em;
     background-color: wheat;
     font-family: sans-serif;
 }
 h2{
-    margin: 1em 3em 1.5em 3em;
+    margin: 1em;
     color:rgb(19, 70, 31);
     font-size: 3em;
     font-family: sans-serif;  
 }
 h3{
+    margin: 1em;
     color:rgb(46, 141, 68);
-    font-size: 1em;
-    padding: 1em 2em 1.5em 0.5em;
+    font-size: 2em;
     font-family: sans-serif;
 }
 h4{
+    margin: 1em;
     color:rgb(120, 207, 140);
-    font-size: 2em;
-    padding: 1em 2em 1.5em 0.5em;
+    font-size: 1em;
     font-family: sans-serif;
 }
 p{
+    margin: 1em;
     color:black;
     font-size: 0.5em;
-    padding: 1em 2em 1.5em 0.5em;
     font-family: sans-serif;  
-}
 }
