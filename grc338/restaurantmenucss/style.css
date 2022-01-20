@@ -36,4 +36,7 @@ p{
     font-size: 0.5em;
     font-family: sans-serif;  
 }
-.emphasized { background-color:chartreuse(247, 243, 51) font-style: italic; }
+.emphasized { 
+    background-color:chartreuse(247, 243, 51); 
+    font-style: italic; 
+}
