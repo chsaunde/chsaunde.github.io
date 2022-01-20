@@ -1,42 +1,41 @@
 /* CSS DOCUMENT*/
 body{
-    background-color: beige;
+    background-color: rgb(236, 236, 217);
 
 }
 h1{
-    margin: 2em 20em 1em 7em;
-    padding: 2em;
+    margin: 10px 50px 20px;
     color:rgb(3, 32, 10);
     font-size: 2.5em;
     text-transform: uppercase;
-    background-color: wheat;
+    background-color: rgb(224, 207, 175);
     font-family: sans-serif;
 }
 h2{
-    margin: 2em 13em 1em 7em;
+    margin: 10px 50px 20px;
     color:rgb(19, 70, 31);
     font-size: 2em;
     font-family: sans-serif;  
 }
 h3{
-    margin: 2em 10em 1em 7em;
+    margin: 10px 50px 20px;
     color:rgb(46, 141, 68);
     font-size: 1.5em;
     font-family: sans-serif;
 }
 h4{
-    margin: 2em 13em 1em 7em;
+    margin: 10px 50px 20px;
     color:rgb(120, 207, 140);
     font-size: 1em;
     font-family: sans-serif;
 }
 p{
-    margin: 2em 15em 1em 7em;
-    color:black;
+    margin: 1em;
+    color:(0,0,0);
     font-size: 0.5em;
     font-family: sans-serif;  
 }
 .emphasized { 
-    background-color:chartreuse(247, 243, 51); 
+    background-color: rgb(247, 243, 51); 
     font-style: italic; 
 }
