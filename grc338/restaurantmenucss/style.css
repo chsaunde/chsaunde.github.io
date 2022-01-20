@@ -4,27 +4,28 @@ body{
 
 }
 h1{
-    margin: 8px 10px 8px;
+    margin: 10px 8px 10px 8px;
     color:rgb(3, 32, 10);
     font-size: 2.5em;
     text-transform: uppercase;
+    padding: 10px 8px 10px 8px;
     background-color: rgb(224, 207, 175);
     font-family: sans-serif;
 }
 h2{
-    margin: 8px 10px 8px;
+    margin: 10px 8px 10px 8px;
     color:rgb(19, 70, 31);
     font-size: 2em;
     font-family: sans-serif;  
 }
 h3{
-    margin: 8px 10px 8px;
+    margin: 10px 8px 10px 8px;
     color:rgb(46, 141, 68);
     font-size: 1.5em;
     font-family: sans-serif;
 }
 h4{
-    margin: 8px 10px 8px;
+    margin: 10px 8px 10px 8px;
     color:rgb(120, 207, 140);
     font-size: 1em;
     font-family: sans-serif;
