@@ -4,9 +4,10 @@ body{
 
 }
 h1{
-    margin: 3em 8em 0.5em 3em;
+    margin: 3em 0.5em 0.5em 3em;
     color:rgb(3, 32, 10);
     font-size: 3em;
+    text-transform: uppercase;
     background-color: wheat;
     font-family: sans-serif;
 }
@@ -29,8 +30,9 @@ h4{
     font-family: sans-serif;
 }
 p{
-    margin: 3em 8em 0.5em 3em;
+    margin: 3em .5em 0.5em 3em;
     color:black;
     font-size: 0.5em;
     font-family: sans-serif;  
 }
+.emphasized { font-style: italic; }
