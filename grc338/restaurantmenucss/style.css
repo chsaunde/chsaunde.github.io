@@ -4,36 +4,36 @@ body{
 
 }
 h1{
-    margin: 4em 13em 3em 3em;
-
+    margin: 4em 13em 3em 7em;
+    padding: 1em;
     color:rgb(3, 32, 10);
-    font-size: 3em;
+    font-size: 2.5em;
     text-transform: uppercase;
     background-color: wheat;
     font-family: sans-serif;
 }
 h2{
-    margin: 4em 13em 3em 3em;
+    margin: 4em 13em 3em 7em;
     color:rgb(19, 70, 31);
     font-size: 2em;
     font-family: sans-serif;  
 }
 h3{
-    margin: 4em 13em 3em 3em;
+    margin: 4em 13em 3em 7em;
     color:rgb(46, 141, 68);
     font-size: 1.5em;
     font-family: sans-serif;
 }
 h4{
-    margin: 4em 13em 3em 3em;
+    margin: 4em 13em 3em 7em;
     color:rgb(120, 207, 140);
     font-size: 1em;
     font-family: sans-serif;
 }
 p{
-    margin: 4em 13em 3em 3em;
+    margin: 4em 13em 3em 7em;
     color:black;
     font-size: 0.5em;
     font-family: sans-serif;  
 }
-.emphasized { background: rgb(207, 207, 91) font-style: italic; }
+.emphasized { background-color:chartreuse(247, 243, 51) font-style: italic; }
