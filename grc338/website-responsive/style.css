@@ -1,0 +1,149 @@
+/*CSS DOCUMENT*/
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%;
+
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 0.5em;
+    font-family:franklin-gothic-atf, sans-serif;
+    font-weight: 400;
+	font-size: calc(10px + 1vw);
+	font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+nav ul li a {
+    color:rgb(66, 69, 71);
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:rgb(202, 201, 197);
+}
+
+p a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(202, 201, 197);
+    border-bottom: dotted 2px;
+}
+
+body {
+	background-color: rgb(66, 69, 71);
+}
+
+div.container {
+	margin: auto;
+	max-width: 800px;
+	border: 0.1em solid rgb(66, 69, 71);
+}
+
+header {
+	background-color: rgb(27, 165, 175);
+	padding:1.5em;
+}
+main {
+	margin: 1em;
+}
+
+h1 {
+	margin-bottom: 1em;
+}
+
+h2 {
+	color: rgb(202, 201, 197);
+	font-family: franklin-gothic-atf, sans-serif;
+	font-weight: 400;
+	font-size: 1.7em;
+	font-style: normal;
+	text-transform: uppercase;
+	margin: 1em;
+    margin-bottom: 3em;
+}
+
+
+h3 {
+	font-family: century-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+	color: rgb(202, 201, 197);
+	margin-top: 2.5em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+	letter-spacing: 0.1em;
+}
+
+h4 {
+	font-family: franklin-gothic-atf, sans-serif;
+	font-weight:700;
+	font-size: 1.1em;
+	font-style: normal;
+	color:  rgb(0, 0, 0);
+	margin-top: 2.5em;
+	letter-spacing: 0.1em;
+}
+
+
+li {
+	font-family:century-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	list-style-type: none;
+}
+
+ul, ol {
+	margin: 1.5em;
+}
+
+footer {
+	background-color:rgb(27, 165, 175);
+	padding: 1em;
+    margin-top:2.5em;
+    color:rgb(0, 0, 0);
+	font-family: century-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+p {
+	color:rgb(255, 255, 255);
+	font-family: century-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    margin: 1em;
+}
+
+.price{
+    font-style: italic; 
+    color:rgb(27, 165, 175);
+}
+
+.contact1{
+	margin:0.5em
+}
+
+.contactus{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+
+
+@media screen and (max-width: 40em){
+
+	nav ul li{
+		font-size:20px;
+	}
+}
