@@ -1,0 +1,154 @@
+/*CSS document*/
+
+body {
+    background-color: rgb(243, 190, 14);
+
+}
+
+img {
+    width: 100%;
+
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 0.5em;
+    font-family:franklin-gothic-atf, sans-serif;
+    font-weight: 300;
+	font-size: calc(10px + .7vw);
+	font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+nav ul li a {
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:rgb(212, 176, 30);
+}
+
+p a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+   
+}
+
+div.container {
+	margin: auto;
+	max-width: 800px;
+	border: 0.1em solid rgb(66, 69, 71);
+}
+
+header {
+	background-color:rgb(30, 40, 41);
+	padding:1.5em;
+}
+main {
+	margin: 1em;
+}
+
+h1 {
+	margin-bottom: 1em;
+}
+
+h2 {
+	color: rgb(0, 0, 0);
+	font-family: franklin-gothic-atf, sans-serif;
+	font-weight: 400;
+	font-size: 1.7em;
+	font-style: normal;
+	text-transform: uppercase;
+	margin: 1em;
+    margin-bottom: 3em;
+}
+
+
+h3 {
+	font-family: century-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+	color: rgb(0, 0, 0);
+	margin-top: 2.5em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+	letter-spacing: 0.1em;
+}
+
+
+li {
+	font-family:century-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	list-style-type: none;
+}
+
+ul, ol {
+	margin: 1.5em;
+}
+
+footer {
+	background-color:rgb(30, 40, 41);
+	padding: 1em;
+    margin-top:2.5em;
+    color:rgb(255, 255, 255);
+	font-family: century-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+p {
+	color:rgb(0, 0, 0);
+	font-family: century-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    margin: 1em;
+}
+
+
+.mainstory{
+
+}
+
+.news{
+
+}
+
+.habitat{
+
+}
+
+.diseases{
+
+}
+
+.readings{
+
+}
+
+.photo{
+
+}
+
+.footer{
+color:rgb(255, 255, 255);
+
+}
+
+
+
+@media screen and (max-width: 40em){
+
+	nav ul li{
+		font-size:20px;
+	}
+}
