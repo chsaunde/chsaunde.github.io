@@ -115,7 +115,9 @@ footer {
 	font-family: century-gothic, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	margin: 0;
+    max-width: 80em;
+	margin: 0 auto;
+
 }
 
 p {
@@ -221,5 +223,91 @@ p {
 	}
 
 
+
+
+
+}
+@media only screen and (min-width: 20em) {
+  
+  
+section {
+
+	padding: 1em;
+	margin-bottom: 1em;
+}
+section.subscribe ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
 }
 
+section.subscribe ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+	flex: 4 0 28em;
+	box-sizing: border-box;
+}
+
+section.subscribe ul li label {
+	flex: 0 0 8em;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+	 
+
+
+	 div.photo {
+		max-width: 60em;
+		margin: 0 auto;
+		padding: 1em;
+	}
+
+	section.photo main {
+		position: relative;
+		overflow: hidden;
+		padding-bottom: calc(72% + 3em);
+	}
+	
+	
+	section.photo img {
+		width: 100%;
+	}
+	
+	
+	section.photo figure{
+		margin: 0;
+		width: calc(100%-2em);
+		position: absolute;
+		opacity: 0;
+		transition: left .5s;
+	}
+	
+	section.photo figcaption {
+		font-size: 2em;
+		font-weight: bold;
+		margin: .1em 0 0;
+		color: rgb(0, 0, 0);
+	}
+	
+	
+	section.photo input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+	section.photo input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+	section.photo input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+	section.photo input:nth-of-type(4):checked ~ main figure:nth-of-type(4){
+		opacity: 1;
+	}
+	
+	section.photo nav {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 0.2em;}
+	}
+	
+	
+	section.photo input {
+		display: none;
+	}
+}
