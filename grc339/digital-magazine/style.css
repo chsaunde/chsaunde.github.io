@@ -14,6 +14,7 @@ body {
 div.container {
     max-width: 80em;
     margin: 0 auto;
+	border: 0.1em solid rgb(66, 69, 71);
 }
 
 section {
@@ -31,14 +32,14 @@ img {
 
 ul{
 	list-style-type: none;
-    padding: 0;
+    padding: 2;
 }
 
 ul li {
     display: inline;
     margin-right: 1em;
     font-family:franklin-gothic-atf, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 	font-style: normal;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -49,7 +50,7 @@ nav ul li a {
 	font-family:franklin-gothic-atf, sans-serif;
 	font-weight: 500;
     text-decoration:none;
-	font-size: 1em;
+	font-size: 1.3em;
 }
 
 ul li a:hover{
@@ -80,9 +81,9 @@ h3 {
 	font-style: normal;
 	font-size: 1.5em;
 	color: rgb(0, 0, 0);
-	margin-top: 2.5em;
-    margin-bottom: .3em;
-    margin-left: 0.5em;
+	margin-top: 2em;
+    margin-bottom: .5em;
+    margin-left: 0.7em;
 	letter-spacing: 0.1em;
 }
 
@@ -94,8 +95,8 @@ h2{
 	font-size: 1.5em;
 	color: rgb(0, 0, 0);
 	margin-top: 2.5em;
-	margin-bottom: .3em;
-	margin-left: 0.5em;
+	margin-bottom: .1em;
+	margin-left: .5em;
 	letter-spacing: 0.1em;
 
 }
@@ -115,9 +116,8 @@ footer {
 	font-family: century-gothic, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-    max-width: 80em;
-	margin: 0 auto;
-
+	max-width: 180em;
+    margin: 0 auto;
 }
 
 p {
@@ -130,25 +130,28 @@ p {
 
 
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 50em) {
 
 	div.container {
 		display: grid;
 		grid-template-columns: 3fr 1fr;
-		grid-gap: 0 1em;
+		grid-gap: 0 .1em;
 	}
   
 	header {
 		grid-column: 1/3;
 		background-color:rgb(30, 40, 41);
-		padding:1.5em;
+		padding:3em;
+		margin: .5em;
+		margin-bottom: 7em;
 	}
 	
 	main {
 		grid-column: 1/2;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 0 1em;
+		grid-gap: 0;
+		
 	}
 
 	section.mainstory{
@@ -156,6 +159,7 @@ p {
 		grid-row: 1/3;
 		display: flex;
 		flex-direction: column;
+		grid-gap: 1em;
 	}
 
 	section.mainstory figure {
@@ -184,21 +188,35 @@ p {
 
 	section.mainstory h3{
 		flex: 0 0 auto; 
-		margin: 0;
+		margin-top: .2em;
+    	margin-bottom: .1em;
+    	margin-left: 4em;
+		letter-spacing: 0.1em;
 
 	}
 
 	
 	section.mainstory p{
 	flex: 0 0 auto;
-    margin: 0;
+	margin: 0;
+		margin-left: 6em;
+		margin-right: 6em;
+		margin-top: .5em;
+		
 	}
 
 	aside{
 		grid-column:2/3;
 	}
 
-
+	section.secondstory{
+		grid-column: 1;
+		display: flex;
+		flex-direction: column;
+		grid-gap: .1em;
+		margin-top: .1em;
+		margin-bottom: .1em;
+	}
 
 	article.mainstory figure figcaption{
 		flex: 0 0 3em;
@@ -206,18 +224,29 @@ p {
 
 	article.mainstory h2{
 		flex: 0 0 auto; 
-		margin: 1;
+		margin-left: 1.4em;
+		margin-right: 12em;
+		margin-top: .8em;
+		margin-bottom: .1em;
+		
 
 	}
 
 	
 	article.mainstory p{
 	flex: 0 0 auto;
-    margin: 0;
+
+		margin-left: 2em;
+		margin-right: 12em;
+		margin-top: 1em;
+		margin-bottom: 3em;
+		
 	}
+	
 
 	article.mainstory figure {
 		flex: 1 0 18em;
+		margin: 2em;
 		display: flex;
 		flex-direction: column;
 	}
@@ -233,13 +262,20 @@ p {
 section {
 
 	padding: 1em;
-	margin-bottom: 1em;
+	margin-bottom: .1em;
+	margin-left: 0em;
 }
 section.subscribe ul li {
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 1em;
+
 }
+section.subscribe h2{
+	margin-left: 1.5em;
+
+}
+
 
 section.subscribe ul li input[type="text"],
 section ul li input[type="email"],
@@ -250,7 +286,7 @@ section ul li select {
 }
 
 section.subscribe ul li label {
-	flex: 0 0 8em;
+	flex: 0 0 18em;
 }
 
 
@@ -260,9 +296,12 @@ section.subscribe ul li label {
 
 
 	 div.photo {
-		max-width: 60em;
-		margin: 0 auto;
+		flex: 1 0 18em;
+		max-width: 80em;
+		margin: auto;
 		padding: 1em;
+			border: 0.1em solid rgb(66, 69, 71);
+		
 	}
 
 	section.photo main {
@@ -278,18 +317,19 @@ section.subscribe ul li label {
 	
 	
 	section.photo figure{
-		margin: 0;
-		width: calc(100%-2em);
+		margin-right: 1em;
+		margin-left: 0;
+		width: calc(100%-3em);
 		position: absolute;
 		opacity: 0;
 		transition: left .5s;
 	}
 	
 	section.photo figcaption {
-		font-size: 2em;
+		font-size: 2.5em;
 		font-weight: bold;
-		margin: .1em 0 0;
-		color: rgb(0, 0, 0);
+		margin: .5em 0 0;
+		color: rgb(255, 255, 255);
 	}
 	
 	
@@ -303,7 +343,8 @@ section.subscribe ul li label {
 	section.photo nav {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		grid-gap: 0.2em;}
+		grid-gap: 0;
+		margin-top: .5em;}
 	}
 	
 	
